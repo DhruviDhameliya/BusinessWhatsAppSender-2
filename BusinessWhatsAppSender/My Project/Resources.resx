@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sendinganimatedgif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sendinganimatedgif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BizWSIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BizWSIcon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashScreen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html xmlns:msxsl="urn:schemas-microsoft-com:xslt"&gt;
+   &lt;head&gt;
+      &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-16LE"&gt;
+      &lt;meta content="en-us" http-equiv="Content-Language"&gt;
+      &lt;title _locid="ConversionReport0"&gt;
+         Trueline Solution Bulk WhatsApp Marketing Software - Report
+      &lt;/title&gt;
+      &lt;style&gt; 
+         /* Body style, for the entire document */
+		 
+		 #maincontent
+		 {
+			width:95%;
+			 margin: 0 auto;
+			 background-color:White;
+		 }
+		 
+         body
+         {
+         background: #F3F3F4;
+         color: #1E1E1F;
+         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+         padding: 0;
+         margin: 0;
+         }
+         /* Header1 style, used for the main title */
+         h1
+         {
+         padding: 10px 0px 10px 10px;
+         font-size: 21pt;
+         background-color: #FFCC00;
+         color: #201F20;
+         margin: 0;
+         font-weight: normal;
+		 text-align: center;
+         }
+         /* Header2 style, used for "Overview" and other sections */
+         h2
+         {
+         font-size: 18pt;
+         font-weight: normal;
+         padding: 15px 0 5px 0;
+         margin: 0;
+         }
+         /* Header3 style, used for sub-sections, such as project name */
+         h3
+         {
+         font-weight: normal;
+         font-size: 15pt;
+         margin: 0;
+         padding: 15px 0 5px 0;
+         background-color: transparent;
+         }
+         /* Color all hyperlinks one color */
+         a
+         {
+         color: #1382CE;
+         }
+         /* Table styles */ 
+         table
+         {
+         border-spacing: 0 0;
+         border-collapse: collapse;
+         font-size: 10pt;
+         }
+         table th
+         {
+         background: #E7E7E8;
+         text-align: left;
+         text-decoration: none;
+         font-weight: normal;
+         padding: 3px 6px 3px 6px;
+         }
+         table td
+         {
+         vertical-align: top;
+         padding: 3px 6px 5px 5px;
+         margin: 0px;
+         border: 1px solid #E7E7E8;
+         background: #F7F7F8;
+         }
+         /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+         .localLink
+         {
+         color: #1E1E1F;
+         background: #EEEEED;
+         text-decoration: none;
+         }
+         .localLink:hover
+         {
+         color: #1382CE;
+         background: #FFFF99;
+         text-decoration: none;
+         }
+         /* Center text, used in the over views cells that contain message level counts */ 
+         .textCentered
+         {
+         text-align: center;
+         }
+         /* The message cells in message tables should take up all avaliable space */
+         .messageCell
+         {
+         width: 100%;
+         }
+         /* Padding around the content after the h1 */ 
+         #content 
+         {
+         padding: 0px 12px 12px 12px; 
+         }
+         /* The overview table expands to width, with a max width of 97% */ 
+         #overview table
+         {
+         width: auto;
+         max-width: 100%; 
+         }
+         /* The messages tables are always 97% width */
+         #messages table
+         {
+         width: 97%;
+         }
+         /* All Icons */
+         .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+         {
+         min-width:18px;
+         min-height:18px; 
+         background-repeat:no-repeat;
+         background-position:center;
+         }
+         /* Success icon encoded */
+         .IconSuccessEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+         }
+         /* Information icon encoded */
+         .IconInfoEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+         }
+         /* Warning icon encoded */
+         .IconWarningEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+         }
+         /* Error icon encoded */
+         .IconErrorEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+         }
+      .auto-style1 {
+		  color: #1382CE;
+	  }
+      .auto-style2 {
+		  text-align: left;
+	  }
+      &lt;/style&gt;
+      &lt;script type="text/javascript" language="javascript"&gt; 
+         // Startup 
+         // Hook up the the loaded event for the document/window, to linkify the document content
+         var startupFunction = function() { linkifyElement("messages"); };
+         
+         if(window.attachEvent)
+         {
+           window.attachEvent('onload', startupFunction);
+         }
+         else if (window.addEventListener) 
+         {
+           window.addEventListener('load', startupFunction, false);
+         }
+         else 
+         {
+           document.addEventListener('load', startupFunction, false);
+         } 
+         
+         // Toggles the visibility of table rows with the specified name 
+         function toggleTableRowsByName(name)
+         {
+            var allRows = document.getElementsByTagName('tr');
+            for (i=0; i &lt; allRows.length; i++)
+            {
+               var currentName = allRows[i].getAttribute('name');
+               if(!!currentName &amp;&amp; currentName.indexOf(name) == 0)
+               {
+                   var isVisible = allRows[i].style.display == ''; 
+                   isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+               }
+            }
+         }
+         
+         function scrollToFirstVisibleRow(name) 
+         {
+            var allRows = document.getElementsByTagName('tr');
+            for (i=0; i &lt; allRows.length; i++)
+            {
+               var currentName = allRows[i].getAttribute('name');
+               var isVisible = allRows[i].style.display == ''; 
+               if(!!currentName &amp;&amp; currentName.indexOf(name) == 0 &amp;&amp; isVisible)
+               {
+                  allRows[i].scrollIntoView(true); 
+                  return true; 
+               }
+            }
+            
+            return false;
+         }
+         
+         // Linkifies the specified text content, replaces candidate links with html links 
+         function linkify(text)
+         {
+              if(!text || 0 === text.length)
+              {
+                  return text; 
+              }
+         
+              // Find http, https and ftp links and replace them with hyper links 
+              var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&amp;%\$#\=~;\{\}])*/gi;
+              
+              return text.replace(urlLink, '&lt;a href="$&amp;"&gt;$&amp;&lt;/a&gt;') ;
+         }
+         
+         // Linkifies the specified element by ID
+         function linkifyElement(id)
+         {
+             var element = document.getElementById(id);
+             if(!!element)
+             {
+               element.innerHTML = linkify(element.innerHTML); 
+             }
+         }
+         
+         function ToggleMessageVisibility(projectName)
+         {
+           if(!projectName || 0 === projectName.length)
+           {
+             return; 
+           }
+           
+           toggleTableRowsByName("MessageRowClass" + projectName);
+           toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+           toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+         }
+         
+         function ScrollToFirstVisibleMessage(projectName)
+         {
+           if(!projectName || 0 === projectName.length)
+           {
+             return; 
+           }
+           
+           // First try the 'Show messages' row
+           if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+           {
+             // Failed to find a visible row for 'Show messages', try an actual message row 
+             scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+           }
+         }
+      &lt;/script&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+   &lt;div id="maincontent" &gt;
+      &lt;a href="https://www.truelinesolution.com/"&gt;
+      &lt;h1 _locid="ConversionReport"&gt;
+		&lt;img src="https://www.truelinesolution.com/public/Asset/logo.png" alt="#1 Digital Marketing Company In Surat | Trueline Solution"&gt;
+		&lt;/h1&gt;
+	&lt;/a&gt;
+	&lt;div style="margin-left: 20px;"&gt;
+	&lt;p&gt;
+	We are also providing&lt;br&gt;
+➡️ Website Design &amp; Development&lt;br&gt;
+➡️ Digital Marketing&lt;br&gt;
+➡️ Search Engine Optimization [SEO]&lt;br&gt;
+➡️ Social Media Marketing [SMM]&lt;br&gt;
+➡️ Paid Promotion [Google Ads / Facebook / Instagram / Twitter and Etc.]&lt;br&gt;
+➡️ Graphics &amp; Design&lt;br&gt;
+&lt;br&gt;
+&lt;div style="display: flex;align-items: flex-start;"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/1.png" style="width:33%; margin: 0 5px;"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/2.png" style="width:33%"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/3.png" style="width:33%;margin: 0 5px;"&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;b&gt;Contact Details:&lt;/b&gt;&lt;br&gt;
+☎ +91 99132 99806 | +91 99132 99862&lt;br&gt;
+🌐 &lt;a href="https://www.truelinesolution.com/"&gt;www.truelinesolution.com&lt;/a&gt;&lt;br&gt;
+📧 Email: contact@truelinesolution.com&lt;br&gt;
+✅ WhatsApp Chat: &lt;a href="https://wa.me/919913299862"&gt;https://wa.me/919913299862&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+If you have any requirements for these services, please Contact me.
+	&lt;/p&gt;
+	&lt;/div&gt;
+      &lt;div id="content"&gt;
+      
+               &lt;h2 _locid="OverviewTitle"&gt;Campaign details&lt;/h2&gt;
+         &lt;div id="overview"&gt;
+            &lt;table style="width: 100%"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 164px"&gt;Date &lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 89px"&gt;Total Numbers&lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 71px"&gt;Successful &lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 63px"&gt;Failed&lt;/th&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                     &lt;td style="width: 164px"&gt;&lt;!--date--&gt;&lt;/td&gt;
+                     &lt;td style="width: 89px"&gt;&lt;!--total--&gt;&lt;/td&gt;
+                     &lt;td style="width: 71px"&gt;&lt;!--success--&gt;&lt;/td&gt;
+                     &lt;td style="width: 63px"&gt;&lt;!--failed--&gt;&lt;/td&gt;
+                  &lt;/tr&gt;
+               &lt;/tbody&gt;
+            &lt;/table&gt;
+
+         &lt;h2 _locid="OverviewTitle"&gt;Messages &amp;amp; Attachments&lt;/h2&gt;
+		            &lt;table style="width: 100%"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 164px"&gt;File &lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 89px"&gt;Type&lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 300px"&gt;Caption&lt;/th&gt;
+
+                  &lt;/tr&gt;
+				&lt;/tbody&gt;
+				&lt;!-- Attachment --&gt;
+				
+				&lt;!--
+				&lt;tr&gt;
+				&lt;td style = 'width: 164px' &gt;stickers.png&lt;/td&gt;
+				&lt;td style = 'width: 89px' &gt;Photo&lt;/td&gt;
+				&lt;td style = 'width: 71px' &gt; &lt;/td&gt;&lt;/tr&gt;
+				--&gt;
+               
+            &lt;/table&gt;
+
+      
+         &lt;h2 _locid="OverviewTitle"&gt;Number Sent&lt;/h2&gt;
+         &lt;div id="overview"&gt;
+            &lt;table style="width:100%"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th style="width: 15px"&gt;&lt;/th&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 35px"&gt;#&lt;/th&gt;
+					 &lt;th _locid="ProjectTableHeader" style="width: 207px"&gt;Name&lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 63px"&gt;Number&lt;/th&gt;
+                     &lt;th _locid="ErrorsTableHeader" style="width: 246px"&gt;Type&lt;/th&gt;
+					 &lt;th _locid="ErrorsTableHeader" style="width: 246px"&gt;Sending Date&lt;/th&gt;
+					 &lt;th _locid="ErrorsTableHeader" style="width: 70px"&gt;Status&lt;/th&gt;
+					 &lt;th _locid="ErrorsTableHeader" style="width: 446px"&gt;Message&lt;/th&gt;
+                  &lt;/tr&gt;
+				&lt;/tbody&gt;
+				&lt;!--messages--&gt;
+            &lt;/table&gt;
+         &lt;/div&gt;
+         
+      &lt;/div&gt;
+      &lt;/div&gt; 
+       &lt;/div&gt;
+   &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Ellipsis-1s-41px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ellipsis-1s-41px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualnumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\virtualnumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ellipsis-1s-41px (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ellipsis-1s-41px (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addmsg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addmsg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attachment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ellipsis-1s-200px (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ellipsis-1s-200px (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schedule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletemsg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletemsg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appicon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receivedmsg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receivedmsg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splash_screen_business" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splash_screen_business.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bws_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bws_a.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
