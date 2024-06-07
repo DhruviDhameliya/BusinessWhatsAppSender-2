@@ -139,7 +139,7 @@ Partial Class FrmLicense
         '
         'Label5
         '
-        Me.Label5.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(12, 314)
@@ -152,7 +152,7 @@ Partial Class FrmLicense
         '
         'Label7
         '
-        Me.Label7.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(12, 334)
@@ -165,7 +165,7 @@ Partial Class FrmLicense
         '
         'Label8
         '
-        Me.Label8.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(12, 354)
@@ -178,7 +178,7 @@ Partial Class FrmLicense
         '
         'LicSending1
         '
-        Me.LicSending1.BackColor = System.Drawing.Color.DarkGreen
+        Me.LicSending1.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.LicSending1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.LicSending1.ForeColor = System.Drawing.Color.White
         Me.LicSending1.Location = New System.Drawing.Point(12, 374)
@@ -191,7 +191,7 @@ Partial Class FrmLicense
         '
         'Label10
         '
-        Me.Label10.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(12, 394)
@@ -204,7 +204,7 @@ Partial Class FrmLicense
         '
         'Label11
         '
-        Me.Label11.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label11.ForeColor = System.Drawing.Color.White
         Me.Label11.Location = New System.Drawing.Point(12, 414)

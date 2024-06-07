@@ -171,7 +171,7 @@ Partial Class FrmSending
         '
         'LabelCountDown
         '
-        Me.LabelCountDown.BackColor = System.Drawing.Color.DarkGreen
+        Me.LabelCountDown.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.LabelCountDown.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LabelCountDown.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelCountDown.ForeColor = System.Drawing.Color.White
@@ -184,7 +184,7 @@ Partial Class FrmSending
         '
         'LabelCountDownHeader
         '
-        Me.LabelCountDownHeader.BackColor = System.Drawing.Color.DarkGreen
+        Me.LabelCountDownHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.LabelCountDownHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.LabelCountDownHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelCountDownHeader.ForeColor = System.Drawing.Color.White
@@ -202,7 +202,7 @@ Partial Class FrmSending
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Calibri", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(43, 163)

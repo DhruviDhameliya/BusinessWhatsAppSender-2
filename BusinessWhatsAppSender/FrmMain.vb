@@ -1337,6 +1337,9 @@ Public Class FrmMain
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If API.GMBEnable.Equals("TRUE") Then
+            If LicenseMode Then
+                CheckLicense()
+            End If
             GMB.Show()
         Else
             Process.Start(WebsiteURL)
