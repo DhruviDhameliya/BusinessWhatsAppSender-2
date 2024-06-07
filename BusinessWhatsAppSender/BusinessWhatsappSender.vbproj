@@ -69,7 +69,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Graphics\icon.ico</ApplicationIcon>
+    <ApplicationIcon>whatsapp %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>2B74480BBAD6E93C141F342F53D0A82141A51120</ManifestCertificateThumbprint>
@@ -438,6 +438,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\FrmAbout.resx">
       <DependentUpon>FrmAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmAdd.resx">
       <DependentUpon>FrmAdd.vb</DependentUpon>
@@ -456,9 +457,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmBrowser.resx">
       <DependentUpon>FrmBrowser.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmFilter.resx">
       <DependentUpon>FrmFilter.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmGroupGrabber.resx">
       <DependentUpon>FrmGroupGrabber.vb</DependentUpon>
@@ -477,15 +480,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmLog.resx">
       <DependentUpon>FrmLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmManageChannel.resx">
       <DependentUpon>FrmManageChannel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmReceived.resx">
       <DependentUpon>FrmReceived.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmReceivedMessage.resx">
       <DependentUpon>FrmReceivedMessage.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmRules.resx">
       <DependentUpon>FrmRules.vb</DependentUpon>
@@ -495,6 +501,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSending.resx">
       <DependentUpon>FrmSending.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSendingMode.resx">
       <DependentUpon>FrmSendingMode.vb</DependentUpon>
@@ -519,6 +526,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\vupdate.resx">
       <DependentUpon>vupdate.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.vb</DependentUpon>
@@ -532,6 +540,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSplash.resx">
       <DependentUpon>FrmSplash.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSetCaption.resx">
       <DependentUpon>FrmSetCaption.vb</DependentUpon>
@@ -561,6 +570,7 @@
     <Content Include="appiconbws.ico" />
     <Content Include="BizWSIcon.ico" />
     <Content Include="bwsappicon.ico" />
+    <Content Include="whatsapp %281%29.ico" />
     <None Include="Resources\Untitled-1.png" />
     <Content Include="Graphics\icon.ico" />
     <Content Include="send.ico" />

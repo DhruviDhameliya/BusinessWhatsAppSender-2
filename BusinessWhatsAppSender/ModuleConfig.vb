@@ -4,15 +4,15 @@
     Public WebsiteURL As String = "https://www.truelinesolution.com/whatsapp-business-marketing-software"
     Public SupportPhone As String = "919913299862"
     Public SupportEmail As String = "contact@truelinesolution.com"
-    Public ServerURL As String = "http://api.bulkwhatsappmarketing.in//"
+    Public ServerURL As String = "http://api.bulkwhatsappmarketing.in/"
     Public appversion As String = 3 ' 3 for business
 
     Public LicenseMode As Boolean = True
 
     Public ApplicationTitle As String = "WHATSAPP BUSINESS MARKETING SOFTWARE"
-    Public ApplicationVersion As String = "8.0 | Trueline Solution  - 122"
+    Public ApplicationVersion As String = "8.0 | Trueline Solution  - 125"
     Public Appv As String = "8.0"
-    Public Builddate As String = "05-04-2024"
+    Public Builddate As String = "07-06-2024"
     Public version As String = "2.2"
 
     Public ShowAbout As Boolean = True

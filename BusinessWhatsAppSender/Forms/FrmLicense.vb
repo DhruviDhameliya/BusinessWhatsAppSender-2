@@ -15,7 +15,7 @@ Public Class FrmLicense
     Private Sub FrmLicense_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
         Dim ordernumberExist = ChackOrderNumberExist()
-        Console.WriteLine("ChackOrderNumberExist  " & ChackOrderNumberExist())
+        Console.WriteLine("ordernumberExist : " & ordernumberExist)
         If (ordernumber <> "0" And ordernumber <> "" And ordernumberExist) Then
             TextBox1.Text = "BWMSBUS - " + ordernumber
             Show()

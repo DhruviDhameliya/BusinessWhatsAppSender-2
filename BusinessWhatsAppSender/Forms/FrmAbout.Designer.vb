@@ -34,18 +34,20 @@ Partial Class FrmAbout
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LabelBuildDate = New System.Windows.Forms.Label()
         Me.LabelVersion = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button1.Location = New System.Drawing.Point(229, 222)
+        Me.Button1.Location = New System.Drawing.Point(166, 222)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 28)
         Me.Button1.TabIndex = 3
@@ -55,7 +57,7 @@ Partial Class FrmAbout
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(207, 254)
+        Me.PictureBox2.Location = New System.Drawing.Point(144, 254)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -65,7 +67,7 @@ Partial Class FrmAbout
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(241, 254)
+        Me.PictureBox4.Location = New System.Drawing.Point(178, 254)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -77,9 +79,9 @@ Partial Class FrmAbout
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.LinkLabel1.Font = New System.Drawing.Font("Arial", 9.75!)
-        Me.LinkLabel1.Location = New System.Drawing.Point(228, 201)
+        Me.LinkLabel1.Location = New System.Drawing.Point(165, 201)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(154, 16)
+        Me.LinkLabel1.Size = New System.Drawing.Size(153, 16)
         Me.LinkLabel1.TabIndex = 9
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "www.truelinesolution.com"
@@ -87,7 +89,7 @@ Partial Class FrmAbout
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(275, 254)
+        Me.PictureBox3.Location = New System.Drawing.Point(212, 254)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -97,7 +99,7 @@ Partial Class FrmAbout
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(309, 254)
+        Me.PictureBox5.Location = New System.Drawing.Point(246, 254)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -107,7 +109,7 @@ Partial Class FrmAbout
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(343, 254)
+        Me.PictureBox6.Location = New System.Drawing.Point(280, 254)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -117,7 +119,7 @@ Partial Class FrmAbout
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(377, 254)
+        Me.PictureBox7.Location = New System.Drawing.Point(314, 254)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 28)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -128,7 +130,7 @@ Partial Class FrmAbout
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(161, 140)
+        Me.Label1.Location = New System.Drawing.Point(98, 140)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(302, 25)
         Me.Label1.TabIndex = 14
@@ -140,7 +142,7 @@ Partial Class FrmAbout
         Me.LabelBuildDate.AutoSize = True
         Me.LabelBuildDate.BackColor = System.Drawing.Color.Transparent
         Me.LabelBuildDate.ForeColor = System.Drawing.Color.Black
-        Me.LabelBuildDate.Location = New System.Drawing.Point(264, 182)
+        Me.LabelBuildDate.Location = New System.Drawing.Point(201, 182)
         Me.LabelBuildDate.Name = "LabelBuildDate"
         Me.LabelBuildDate.Size = New System.Drawing.Size(72, 13)
         Me.LabelBuildDate.TabIndex = 19
@@ -151,21 +153,32 @@ Partial Class FrmAbout
         Me.LabelVersion.AutoSize = True
         Me.LabelVersion.BackColor = System.Drawing.Color.Transparent
         Me.LabelVersion.ForeColor = System.Drawing.Color.Black
-        Me.LabelVersion.Location = New System.Drawing.Point(272, 165)
+        Me.LabelVersion.Location = New System.Drawing.Point(209, 165)
         Me.LabelVersion.Name = "LabelVersion"
         Me.LabelVersion.Size = New System.Drawing.Size(57, 13)
         Me.LabelVersion.TabIndex = 18
         Me.LabelVersion.Text = "{{version}}"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(523, 121)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 20
+        Me.PictureBox1.TabStop = False
         '
         'FrmAbout
         '
         Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.CancelButton = Me.Button1
-        Me.ClientSize = New System.Drawing.Size(602, 294)
+        Me.ClientSize = New System.Drawing.Size(523, 308)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LabelBuildDate)
         Me.Controls.Add(Me.LabelVersion)
         Me.Controls.Add(Me.Label1)
@@ -190,6 +203,7 @@ Partial Class FrmAbout
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -205,4 +219,5 @@ Partial Class FrmAbout
     Friend WithEvents Label1 As Label
     Friend WithEvents LabelBuildDate As Label
     Friend WithEvents LabelVersion As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

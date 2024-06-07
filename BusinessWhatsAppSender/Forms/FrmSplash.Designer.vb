@@ -40,7 +40,7 @@ Partial Class FrmSplash
         Me.LabelVersion.AutoSize = True
         Me.LabelVersion.BackColor = System.Drawing.Color.Transparent
         Me.LabelVersion.ForeColor = System.Drawing.Color.Black
-        Me.LabelVersion.Location = New System.Drawing.Point(392, 268)
+        Me.LabelVersion.Location = New System.Drawing.Point(215, 5)
         Me.LabelVersion.Name = "LabelVersion"
         Me.LabelVersion.Size = New System.Drawing.Size(57, 13)
         Me.LabelVersion.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class FrmSplash
         Me.LabelBuildDate.AutoSize = True
         Me.LabelBuildDate.BackColor = System.Drawing.Color.Transparent
         Me.LabelBuildDate.ForeColor = System.Drawing.Color.Black
-        Me.LabelBuildDate.Location = New System.Drawing.Point(455, 268)
+        Me.LabelBuildDate.Location = New System.Drawing.Point(278, 5)
         Me.LabelBuildDate.Name = "LabelBuildDate"
         Me.LabelBuildDate.Size = New System.Drawing.Size(72, 13)
         Me.LabelBuildDate.TabIndex = 1
@@ -61,7 +61,7 @@ Partial Class FrmSplash
         '
         Me.LabelStatus.BackColor = System.Drawing.Color.Transparent
         Me.LabelStatus.ForeColor = System.Drawing.Color.Black
-        Me.LabelStatus.Location = New System.Drawing.Point(360, 281)
+        Me.LabelStatus.Location = New System.Drawing.Point(175, 18)
         Me.LabelStatus.Name = "LabelStatus"
         Me.LabelStatus.Size = New System.Drawing.Size(200, 18)
         Me.LabelStatus.TabIndex = 2

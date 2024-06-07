@@ -45,6 +45,7 @@ Public Class FrmMain
         CheckLicense()
         LabelRemaning.Visible = True
         LabelRemaning.Text = TotalDays & " Remaning days"
+        Console.WriteLine(" FrmBrowser.IsWAPILoggedIn " & FrmBrowser.IsWAPILoggedIn)
         If Not FrmBrowser.IsWAPILoggedIn Then
             MsgBox("Ensure that you are logged in into WhatsApp.", vbCritical, Application.ProductName)
             Exit Sub
