@@ -126,6 +126,9 @@
     Private Sub FrmGroupGrabber_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ListView1.Items.Clear()
         GetCount()
+        If LicenseMode Then
+            CheckLicense()
+        End If
     End Sub
 
     Private Sub GetCount()

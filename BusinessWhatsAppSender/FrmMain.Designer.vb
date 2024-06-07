@@ -639,7 +639,7 @@ Partial Class FrmMain
         '
         Me.Panel7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel7.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LstMedia)
         Me.Panel7.Controls.Add(Me.Panel8)
         Me.Panel7.Location = New System.Drawing.Point(634, 398)
@@ -727,7 +727,7 @@ Partial Class FrmMain
         '
         'Panel8
         '
-        Me.Panel8.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel8.Controls.Add(Me.Label17)
         Me.Panel8.Controls.Add(Me.BtnImgBrowse)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
@@ -750,7 +750,7 @@ Partial Class FrmMain
         'BtnImgBrowse
         '
         Me.BtnImgBrowse.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnImgBrowse.BackColor = System.Drawing.Color.DarkGreen
+        Me.BtnImgBrowse.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.BtnImgBrowse.FlatAppearance.BorderSize = 0
         Me.BtnImgBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnImgBrowse.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
@@ -766,7 +766,7 @@ Partial Class FrmMain
         'BtnSending
         '
         Me.BtnSending.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnSending.BackColor = System.Drawing.Color.DarkGreen
+        Me.BtnSending.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.BtnSending.FlatAppearance.BorderSize = 0
         Me.BtnSending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSending.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -852,7 +852,7 @@ Partial Class FrmMain
         '
         Me.LinkFullName.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.LinkFullName.BackColor = System.Drawing.Color.DarkGreen
+        Me.LinkFullName.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.LinkFullName.Controls.Add(Me.Label10)
         Me.LinkFullName.Controls.Add(Me.BtnDeletMessage)
         Me.LinkFullName.Controls.Add(Me.BtnAddMessage)
@@ -972,7 +972,7 @@ Partial Class FrmMain
         Me.ButtonOpenWhatsApp.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonOpenWhatsApp.BackColor = System.Drawing.Color.ForestGreen
+        Me.ButtonOpenWhatsApp.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.ButtonOpenWhatsApp.FlatAppearance.BorderSize = 0
         Me.ButtonOpenWhatsApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonOpenWhatsApp.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1078,7 +1078,7 @@ Partial Class FrmMain
         '
         'PnlNumbers
         '
-        Me.PnlNumbers.BackColor = System.Drawing.Color.DarkGreen
+        Me.PnlNumbers.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.PnlNumbers.Controls.Add(Me.Button17)
         Me.PnlNumbers.Controls.Add(Me.LblNumbers)
         Me.PnlNumbers.Dock = System.Windows.Forms.DockStyle.Top
@@ -1169,7 +1169,7 @@ Partial Class FrmMain
         '
         Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel4.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel4.Controls.Add(Me.LstNumbers)
         Me.Panel4.Controls.Add(Me.PnlNumbers)
         Me.Panel4.Location = New System.Drawing.Point(319, 105)
@@ -1180,7 +1180,7 @@ Partial Class FrmMain
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel3.Controls.Add(Me.LabelRemaning)
         Me.Panel3.Controls.Add(Me.LabelLoginStatus)
         Me.Panel3.Controls.Add(Me.PictureBox3)
@@ -1286,7 +1286,7 @@ Partial Class FrmMain
         Me.Panel5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel5.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel5.Controls.Add(Me.TabMessages)
         Me.Panel5.Controls.Add(Me.Panel13)
         Me.Panel5.Location = New System.Drawing.Point(634, 136)
@@ -1321,7 +1321,7 @@ Partial Class FrmMain
         '
         'Panel13
         '
-        Me.Panel13.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel13.Controls.Add(Me.Button19)
         Me.Panel13.Controls.Add(Me.BtnEmoji)
         Me.Panel13.Controls.Add(Me.BtnStrike)
@@ -1463,7 +1463,7 @@ Partial Class FrmMain
         '
         Me.Button4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button4.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1483,7 +1483,7 @@ Partial Class FrmMain
         '
         Me.Button5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button5.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1577,7 +1577,7 @@ Partial Class FrmMain
         Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button8.FlatAppearance.BorderSize = 0
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.Black
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
         Me.Button8.Location = New System.Drawing.Point(550, 2)
@@ -1594,7 +1594,7 @@ Partial Class FrmMain
         Me.Button2.BackColor = System.Drawing.Color.DarkOrchid
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.Location = New System.Drawing.Point(651, 2)
@@ -1610,7 +1610,7 @@ Partial Class FrmMain
         '
         Me.Button20.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button20.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button20.FlatAppearance.BorderSize = 0
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1630,7 +1630,7 @@ Partial Class FrmMain
         '
         Me.Button9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button9.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1650,7 +1650,7 @@ Partial Class FrmMain
         '
         Me.Button6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button6.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1670,7 +1670,7 @@ Partial Class FrmMain
         '
         Me.Button7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button7.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button7.FlatAppearance.BorderSize = 0
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1690,7 +1690,7 @@ Partial Class FrmMain
         '
         Me.Button14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button14.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button14.FlatAppearance.BorderSize = 0
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1710,7 +1710,7 @@ Partial Class FrmMain
         '
         Me.Button15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button15.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button15.FlatAppearance.BorderSize = 0
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1730,7 +1730,7 @@ Partial Class FrmMain
         '
         Me.Button16.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button16.BackColor = System.Drawing.Color.DarkGreen
+        Me.Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Button16.FlatAppearance.BorderSize = 0
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1811,7 +1811,7 @@ Partial Class FrmMain
         '
         Me.Panel15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel15.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel15.Controls.Add(Me.ListReceivedMessages)
         Me.Panel15.Controls.Add(Me.Panel16)
         Me.Panel15.Location = New System.Drawing.Point(3, 303)
@@ -1854,7 +1854,7 @@ Partial Class FrmMain
         '
         'Panel16
         '
-        Me.Panel16.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel16.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel16.Controls.Add(Me.Button18)
         Me.Panel16.Controls.Add(Me.Label2)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
@@ -1891,7 +1891,7 @@ Partial Class FrmMain
         'ButtonSchedule
         '
         Me.ButtonSchedule.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonSchedule.BackColor = System.Drawing.Color.ForestGreen
+        Me.ButtonSchedule.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.ButtonSchedule.FlatAppearance.BorderSize = 0
         Me.ButtonSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1910,7 +1910,7 @@ Partial Class FrmMain
         'Panel17
         '
         Me.Panel17.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel17.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel17.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel17.Controls.Add(Me.Panel18)
         Me.Panel17.Location = New System.Drawing.Point(319, 566)
         Me.Panel17.Name = "Panel17"
@@ -1920,7 +1920,7 @@ Partial Class FrmMain
         '
         'Panel18
         '
-        Me.Panel18.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel18.Controls.Add(Me.LabelGroupsCount)
         Me.Panel18.Controls.Add(Me.LabelGroups)
         Me.Panel18.Controls.Add(Me.LabelContactsCount)
@@ -2070,7 +2070,7 @@ Partial Class FrmMain
         '
         'Panel12
         '
-        Me.Panel12.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel12.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel12.Controls.Add(Me.ButtonRules)
         Me.Panel12.Controls.Add(Me.Panel10)
         Me.Panel12.Controls.Add(Me.Label1)
@@ -2104,7 +2104,7 @@ Partial Class FrmMain
         '
         'ButtonSwitch
         '
-        Me.ButtonSwitch.BackColor = System.Drawing.Color.DarkGreen
+        Me.ButtonSwitch.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.ButtonSwitch.Dock = System.Windows.Forms.DockStyle.Left
         Me.ButtonSwitch.Location = New System.Drawing.Point(0, 0)
         Me.ButtonSwitch.Name = "ButtonSwitch"
@@ -2258,12 +2258,12 @@ Partial Class FrmMain
         Me.LinkLabel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.LinkLabel4.AutoSize = True
         Me.LinkLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel4.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel4.ForeColor = System.Drawing.Color.Transparent
         Me.LinkLabel4.LinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.LinkLabel4.Location = New System.Drawing.Point(1, 593)
         Me.LinkLabel4.Name = "LinkLabel4"
-        Me.LinkLabel4.Size = New System.Drawing.Size(642, 16)
+        Me.LinkLabel4.Size = New System.Drawing.Size(793, 16)
         Me.LinkLabel4.TabIndex = 113
         Me.LinkLabel4.TabStop = True
         Me.LinkLabel4.Text = "NOTE:- BULK WHATSAPP MARKETING SOFTWARE IS NOT RESPONSIBLE IF YOUR NUMBER GET BLO" &

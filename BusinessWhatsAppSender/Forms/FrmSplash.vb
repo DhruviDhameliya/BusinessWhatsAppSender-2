@@ -25,7 +25,7 @@ Public Class FrmSplash
         System.Threading.Thread.Sleep(1000)
         LoginTag = GetLoginTag()
 
-        WAPIScript = GetWapi()
+        WAPIScript = API.GetWAPI
         If WAPIScript = "" Then
             MsgBox("Unable to load latest API...", vbCritical, ApplicationTitle)
             End

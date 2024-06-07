@@ -4,7 +4,8 @@
     Public WebsiteURL As String = "https://www.truelinesolution.com/whatsapp-business-marketing-software"
     Public SupportPhone As String = "919913299862"
     Public SupportEmail As String = "contact@truelinesolution.com"
-    Public ServerURL As String = "http://bulkwhatsappmarketing.in/BusinessGetDateEX.ashx" 'you can host getlic on your server 
+    Public ServerURL As String = "http://api.bulkwhatsappmarketing.in//"
+    Public appversion As String = 3 ' 3 for business
 
     Public LicenseMode As Boolean = True
 
@@ -63,7 +64,7 @@
     End Structure
 
     Function allloaded()
-        If (API.IsLoggedInAll IsNot vbNullString And API.GMBScript IsNot vbNullString And API.VideoEnable IsNot vbNullString And API.version IsNot vbNullString And API.JDEnable IsNot vbNullString And API.GMBEnable IsNot vbNullString And API.BlockNumber IsNot vbNullString And API.BUSloginTag IsNot vbNullString And API.GetGroupContacts IsNot vbNullString And API.GMBnextpage IsNot vbNullString And API.GMBback IsNot vbNullString And API.GMBnumber IsNot vbNullString And API.GMBname IsNot vbNullString And API.GMBScroll IsNot vbNullString And API.IsCaptionLoaded IsNot vbNullString And API.messageboxidinnerText IsNot vbNullString And API.GetWAPI IsNot vbNullString And API.ClickSend IsNot vbNullString And API.InitiateMessage IsNot vbNullString And API.messageboxid IsNot vbNullString And API.CloseInvalidMessage IsNot vbNullString And API.InvalidExist IsNot vbNullString And API.InitiateSender IsNot vbNullString And API.IsLoggedIn IsNot vbNullString) Then
+        If (API.IsLoggedInAll IsNot vbNullString And API.GMBScript IsNot vbNullString And API.VideoEnable IsNot vbNullString And API.version IsNot vbNullString And API.JDEnable IsNot vbNullString And API.GMBEnable IsNot vbNullString And API.BlockNumber IsNot vbNullString And API.BUSloginTag IsNot vbNullString And API.GetGroupContacts IsNot vbNullString And API.GMBnextpage IsNot vbNullString And API.GMBback IsNot vbNullString And API.GMBnumber IsNot vbNullString And API.GMBname IsNot vbNullString And API.GMBScroll IsNot vbNullString And API.IsCaptionLoaded IsNot vbNullString And API.messageboxidinnerText IsNot vbNullString And API.GetWAPI IsNot vbNullString And API.ClickSend IsNot vbNullString And API.InitiateMessage IsNot vbNullString And API.messageboxid IsNot vbNullString And API.CloseInvalidMessage IsNot vbNullString And API.InvalidExist IsNot vbNullString And API.InitiateSender IsNot vbNullString And API.IsLoggedIn IsNot vbNullString And API.GetWAPI IsNot vbNullString) Then
             Return True
         Else
             Return False
@@ -71,40 +72,39 @@
 
     End Function
 
-
     Function InitAPI()
-        Dim BaseUrl As String = "http://digitalbusinessbazaar.com/wp/TLSWAPIScript.php?id="
-        API.IsLoggedIn = New System.Net.WebClient().DownloadString(BaseUrl & "1" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.InitiateSender = New System.Net.WebClient().DownloadString(BaseUrl & "2" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.InvalidExist = New System.Net.WebClient().DownloadString(BaseUrl & "3" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.CloseInvalidMessage = New System.Net.WebClient().DownloadString(BaseUrl & "4" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.messageboxid = New System.Net.WebClient().DownloadString(BaseUrl & "5" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.InitiateMessage = New System.Net.WebClient().DownloadString(BaseUrl & "6" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.ClickSend = New System.Net.WebClient().DownloadString(BaseUrl & "7" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GetWAPI = "http://digitalbusinessbazaar.com/wp/TlsWapiVenScript_23032024.js?" & Now.ToString("yyyyMMddhhmmss")
-        API.messageboxidinnerText = New System.Net.WebClient().DownloadString(BaseUrl & "9" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.IsCaptionLoaded = New System.Net.WebClient().DownloadString(BaseUrl & "10" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GetGroupContacts = New System.Net.WebClient().DownloadString(BaseUrl & "15" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBScroll = New System.Net.WebClient().DownloadString(BaseUrl & "11" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBname = New System.Net.WebClient().DownloadString(BaseUrl & "12" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBnumber = New System.Net.WebClient().DownloadString(BaseUrl & "13" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBback = New System.Net.WebClient().DownloadString(BaseUrl & "14" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBnextpage = New System.Net.WebClient().DownloadString(BaseUrl & "20" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBxpath = New System.Net.WebClient().DownloadString(BaseUrl & "22" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.BUSloginTag = New System.Net.WebClient().DownloadString(BaseUrl & "21" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.BlockNumber = New System.Net.WebClient().DownloadString(BaseUrl & "23" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDScroll = New System.Net.WebClient().DownloadString(BaseUrl & "25" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDUrl = New System.Net.WebClient().DownloadString(BaseUrl & "26" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDCname = New System.Net.WebClient().DownloadString(BaseUrl & "27" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDCnumber = New System.Net.WebClient().DownloadString(BaseUrl & "28" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDCNext = New System.Net.WebClient().DownloadString(BaseUrl & "29" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDpre = New System.Net.WebClient().DownloadString(BaseUrl & "30" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.JDEnable = New System.Net.WebClient().DownloadString(BaseUrl & "31" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBEnable = New System.Net.WebClient().DownloadString(BaseUrl & "32" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.VideoEnable = New System.Net.WebClient().DownloadString(BaseUrl & "33" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.version = New System.Net.WebClient().DownloadString(BaseUrl & "40" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.GMBScript = New System.Net.WebClient().DownloadString(BaseUrl & "46" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
-        API.IsLoggedInAll = New System.Net.WebClient().DownloadString(BaseUrl & "48" & "&l=" & Now.ToString("yyyyMMddhhmmss"))
+        Dim sciptURL = ServerURL & "getscriptbyid/"
+        API.IsLoggedIn = getServerData(sciptURL & "1")
+        API.InitiateSender = getServerData(sciptURL & "2")
+        API.InvalidExist = getServerData(sciptURL & "3")
+        API.CloseInvalidMessage = getServerData(sciptURL & "4")
+        API.messageboxid = getServerData(sciptURL & "5")
+        API.InitiateMessage = getServerData(sciptURL & "6")
+        API.ClickSend = getServerData(sciptURL & "7")
+        API.GetWAPI = getServerData(ServerURL & "script", False)
+        API.messageboxidinnerText = getServerData(sciptURL & "9")
+        API.IsCaptionLoaded = getServerData(sciptURL & "10")
+        API.GetGroupContacts = getServerData(sciptURL & "15")
+        API.GMBScroll = getServerData(sciptURL & "11")
+        API.GMBname = getServerData(sciptURL & "12")
+        API.GMBnumber = getServerData(sciptURL & "13")
+        API.GMBback = getServerData(sciptURL & "14")
+        API.GMBnextpage = getServerData(sciptURL & "20")
+        API.GMBxpath = getServerData(sciptURL & "22")
+        API.BUSloginTag = getServerData(sciptURL & "21")
+        API.BlockNumber = getServerData(sciptURL & "23")
+        API.JDScroll = getServerData(sciptURL & "25")
+        API.JDUrl = getServerData(sciptURL & "26")
+        API.JDCname = getServerData(sciptURL & "27")
+        API.JDCnumber = getServerData(sciptURL & "28")
+        API.JDCNext = getServerData(sciptURL & "29")
+        API.JDpre = getServerData(sciptURL & "30")
+        API.JDEnable = getServerData(sciptURL & "31")
+        API.GMBEnable = getServerData(sciptURL & "32")
+        API.VideoEnable = getServerData(sciptURL & "33")
+        API.version = getServerData(sciptURL & "40")
+        API.GMBScript = getServerData(sciptURL & "46")
+        API.IsLoggedInAll = getServerData(sciptURL & "48")
     End Function
 
     Function StaticInitAPI()
@@ -140,13 +140,6 @@
         API.JDEnable = "FALSE"
         API.GMBEnable = "FALSE"
         API.VideoEnable = "FALSE"
-    End Function
-    Public Function CantRun() As Boolean
-        If Val(GetSetting("wapi", "api", "port", "0")) > 3 Then
-            Return True
-        Else
-            Return False
-        End If
     End Function
 
 End Module

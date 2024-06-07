@@ -14,12 +14,11 @@ Public Class FrmLicense
 
     Private Sub FrmLicense_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
-        If (ordernumber <> "") Then
-            Dim request As String = New System.Net.WebClient().DownloadString("http://bulkwhatsappmarketing.in/getrequestbyorder.php?ordernumber=" + ordernumber)
-            If (request <> "0") Then
-                TextBox1.Text = "BWMSBUS - " + ordernumber
-                Show()
-            End If
+        Dim ordernumberExist = ChackOrderNumberExist()
+        Console.WriteLine("ChackOrderNumberExist  " & ChackOrderNumberExist())
+        If (ordernumber <> "0" And ordernumber <> "" And ordernumberExist) Then
+            TextBox1.Text = "BWMSBUS - " + ordernumber
+            Show()
         End If
     End Sub
 
@@ -59,43 +58,28 @@ Public Class FrmLicense
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         On Error Resume Next
         If LicneseTextBox.Text = "" Then
-            MsgBox("Please enter your licnese", vbCritical, Application.ProductName)
-            Exit Sub
-        End If
-        Dim srvdate As Long = Val(GetServerDate())
-        Dim result As ActivationCodeResponse
-
-        Dim lic = New System.Net.WebClient().DownloadString("http://bulkwhatsappmarketing.in/getlic.php?id=3&license=" + HttpUtility.UrlEncode(LicneseTextBox.Text))
-        result = ClsLicence.ValidateLicense(lic)
-
-
-
-        If Not IsNothing(result) Then
-            If result.IsExsist Then
-                If Not IsNothing(result.Response) Then
-                    If srvdate <= Val(result.Response.ExpiryDate) Then
-                        If result.Response.Status = 1 Then
-                            ExpriyDate = result.Response.ExpiryDate
-                            TotalDays = ClsLicence.GetRemianingDays(result.Response.ExpiryDate, srvdate)
-                            AllowSending = result.Response.AllowSending
-                            AllowAutoReply = result.Response.AllowBot
-                            allowFilter = result.Response.AllowFilter
-                            SaveSetting(Application.ProductName, "license", "key", LicneseTextBox.Text)
-                            MsgBox("Your license is successfuly activated", MsgBoxStyle.Information, Application.ProductName)
-                            FrmMain.LabelRemaning.Text = TotalDays & " Remaning days"
-                            Me.Hide()
-                        Else
-                            MsgBox("License disabled by vendor.", vbCritical, Application.ProductName)
-                        End If
-                    Else
-                        MsgBox("License already expired", vbCritical, Application.ProductName)
-                    End If
-                End If
-            Else
-                MsgBox("Unable to validate license check vendor", vbCritical, Application.ProductName)
+                MsgBox("Please enter your licnese", vbCritical, Application.ProductName)
+                Exit Sub
             End If
+        Dim srvdate As Long = Val(GetServerDate())
+
+        Dim licenseData = CheckCurrentLicence(HttpUtility.UrlEncode(LicneseTextBox.Text))
+        If licenseData("status").ToString() = "1" Then
+            'If srvdate <= licenseData("valid_till") Then
+            ExpriyDate = licenseData("valid_till")
+                TotalDays = ClsLicence.GetRemianingDays(licenseData("valid_till"), srvdate)
+                AllowSending = True
+                AllowAutoReply = True
+                allowFilter = True
+                SaveSetting(Application.ProductName, "license", "key", LicneseTextBox.Text)
+                MsgBox("Your license is successfuly activated", MsgBoxStyle.Information, Application.ProductName)
+                FrmMain.LabelRemaning.Text = TotalDays & " Remaning days"
+                Me.Hide()
+            'Else
+            '    MsgBox("License already expired", vbCritical, Application.ProductName)
+            'End If
         Else
-            MsgBox("Unable to validate license check vendor", vbCritical, Application.ProductName)
+            MsgBox(licenseData("description"), vbCritical, Application.ProductName)
         End If
     End Sub
 
@@ -139,40 +123,19 @@ Public Class FrmLicense
         LicAutoReply.Text = ""
         LicFilter.Text = ""
 
-        Dim result As ActivationCodeResponse
-        Dim lic = New System.Net.WebClient().DownloadString("http://bulkwhatsappmarketing.in/getlic.php?id=3&license=" + HttpUtility.UrlEncode(LicneseTextBox.Text))
-
-        result = ClsLicence.ValidateLicense(lic)
-
-        If Not IsNothing(result) Then
-            If result.IsExsist Then
-                If Not IsNothing(result.Response) Then
-                    If Val(GetServerDate()) <= Val(result.Response.ExpiryDate) Then
-                        If result.Response.Status = 1 Then
-                            LicName.Text = result.Response.Name
-                            LicCreateDate.Text = result.Response.Mobile
-                            LicExpiryDate.Text = ClsLicence.ResolveDate(result.Response.ExpiryDate)
-                            LicSending.Text = result.Response.AllowSending
-                            LicAutoReply.Text = result.Response.AllowBot
-                            LicFilter.Text = result.Response.AllowFilter
-                            Label12.Text = "License Validated"
-                        Else
-                            MsgBox("License disabled by vendor.", vbCritical, Application.ProductName)
-                        End If
-
-                    Else
-                        MsgBox("License already expired.", vbCritical, Application.ProductName)
-                    End If
-                End If
-            Else
-                MsgBox("Unable to validate license check vendor.", vbCritical, Application.ProductName)
-            End If
+        Dim licenseData = CheckCurrentLicence(HttpUtility.UrlEncode(LicneseTextBox.Text))
+        If licenseData("status").ToString() = "1" Then
+            LicName.Text = licenseData("name")
+            LicCreateDate.Text = licenseData("mobile")
+            LicExpiryDate.Text = licenseData("exp_date")
+            LicSending.Text = True
+            LicAutoReply.Text = True
+            LicFilter.Text = True
+            Label12.Text = "license validated"
         Else
-            MsgBox("Unable to validate license check vendor.", vbCritical, Application.ProductName)
+            MsgBox(licenseData("description"), vbCritical, Application.ProductName)
         End If
-
     End Sub
-
 
     Private Sub Show()
         Label1.Visible = True

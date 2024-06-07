@@ -58,7 +58,7 @@ Public Class Whatsapp
             System.Threading.Thread.Sleep(10)
         Loop Until IsLoggedIn(ChromeDrv)
         WaitTocompleteLoading(10)
-        ChromeDrv.ExecuteScript(GetWapi)
+        ChromeDrv.ExecuteScript(API.GetWAPI)
 
         Dim _contact As WhatsAppContact
         Dim _Message As String = ""

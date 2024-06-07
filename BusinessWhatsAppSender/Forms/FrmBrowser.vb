@@ -418,7 +418,7 @@ Public Class FrmBrowser
     End Function
     Public Sub CheckWhatsAppAccount(ByVal WhatsAppAccount As String)
         Try
-            CefBrowser.ExecuteScriptAsync("window.find=0;WAPI.checkNumberStatus('" & WhatsAppAccount & "').then(async (result)=>{result.num='" & WhatsAppAccount & "'; window.find=result;await CefSharp.BindObjectAsync('boundAsync','bound');boundAsync.checkNumberStatus(result);});")
+            CefBrowser.ExecuteScriptAsync("window.find=0;tlsbot.checkNumberStatus('" & WhatsAppAccount & "').then(async (result)=>{result.num='" & WhatsAppAccount & "'; window.find=result;await CefSharp.BindObjectAsync('boundAsync','bound');boundAsync.checkNumberStatus(result);});")
             System.Threading.Thread.Sleep(100)
         Catch ex As Exception
 
