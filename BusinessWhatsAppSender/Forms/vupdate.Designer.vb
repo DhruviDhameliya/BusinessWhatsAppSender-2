@@ -33,7 +33,7 @@ Partial Class vupdate
         'OkButton
         '
         Me.OkButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.OkButton.Location = New System.Drawing.Point(116, 201)
+        Me.OkButton.Location = New System.Drawing.Point(123, 201)
         Me.OkButton.Name = "OkButton"
         Me.OkButton.Size = New System.Drawing.Size(150, 28)
         Me.OkButton.TabIndex = 10
@@ -43,7 +43,7 @@ Partial Class vupdate
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(87, 138)
+        Me.Label1.Location = New System.Drawing.Point(94, 138)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(244, 52)
         Me.Label1.TabIndex = 9
@@ -65,7 +65,7 @@ Partial Class vupdate
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft PhagsPa", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(90, 113)
+        Me.Label2.Location = New System.Drawing.Point(97, 113)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(159, 18)
         Me.Label2.TabIndex = 11

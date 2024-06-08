@@ -139,8 +139,8 @@
         _t.Speed = Val(GetSetting(ApplicationTitle, "SendingConfig", "Speed", "3"))
         CmbSpeed.SelectedIndex = _t.Speed
 
-        WaitFrom.Value = Val(GetSetting(ApplicationTitle, "SendingConfig", "DelayStart", "1"))
-        WaitTo.Value = Val(GetSetting(ApplicationTitle, "SendingConfig", "DelayEnd", "2"))
+        WaitFrom.Value = Val(GetSetting(ApplicationTitle, "SendingConfig", "DelayStart", "5"))
+        WaitTo.Value = Val(GetSetting(ApplicationTitle, "SendingConfig", "DelayEnd", "7"))
 
         _t.ActivateDialog = CBool(GetSetting(ApplicationTitle, "SendingConfig", "ActivateDialog", "false"))
         CheckBox1.Checked = _t.ActivateDialog
@@ -166,7 +166,7 @@
         NumericUpDown2.Value = _t.SleepFor
 
         _t.SendingMode = CBool(GetSetting(ApplicationTitle, "SendingConfig", "SendingMode", "true"))
-        _t.HideChromeExtractor = CBool(GetSetting(ApplicationTitle, "SendingConfig", "HideChromeExtractor", "true"))
+        _t.HideChromeExtractor = CBool(GetSetting(ApplicationTitle, "SendingConfig", "HideChromeExtractor", "false"))
         CheckBox4.Checked = _t.HideChromeExtractor
 
         _t.HideChromeExtractor = CBool(GetSetting(ApplicationTitle, "SendingConfig", "UnreadMessage", "false"))
